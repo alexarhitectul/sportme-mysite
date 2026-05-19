@@ -18,7 +18,7 @@ function PrivacyPolicyContent() {
   const { t, language } = useI18n();
   const policy = privacyPolicy[language];
   return (
-    <main className="public-site min-h-screen bg-[#f6f1e7] text-[#1f211f]">
+    <main className="public-site public-dark min-h-screen text-white">
       <div className="relative overflow-hidden">
         
 

@@ -70,7 +70,7 @@ export default function PricingPage() {
   const premiumGainItems = premiumGainItemKeys.map((key) => t(key));
 
   return (
-    <main className="public-site min-h-screen bg-[#f6f1e7] text-[#1f211f]">
+    <main className="public-site public-dark min-h-screen text-white">
       <style jsx global>{`
         .pricing-table-scroll {
           overflow-x: scroll;
