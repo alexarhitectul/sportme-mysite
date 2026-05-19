@@ -23,13 +23,10 @@ function PrivacyPolicyContent() {
         
 
         <div className="mx-auto w-full max-w-4xl px-5 pb-12 pt-10">
-          <div className="flex justify-end">
+          <div className="mb-8 flex justify-end">
             <PublicTopControls showBack />
           </div>
           <header className="relative overflow-hidden rounded-[28px] border border-[#d8d1bf] bg-white/80 px-6 py-8 shadow-[0_24px_60px_-40px_rgba(32,33,31,0.7)] backdrop-blur">
-            <div className="absolute right-6 top-6 hidden h-24 w-60 items-center justify-center rounded-2xl bg-white/85 px-4 shadow-[0_18px_35px_-28px_rgba(32,33,31,0.5)] sm:flex">
-              <img src="/patterns/6247dd6f-1.png" alt="SportMe" className="h-12 w-full object-contain" />
-            </div>
             <div className="flex flex-col gap-3 sm:max-w-[70%]">
               <p className="text-xs uppercase tracking-[0.3em] text-[#7a7566]">SportMe</p>
               <h1 className="text-3xl font-semibold">{t("privacy.title")}</h1>
