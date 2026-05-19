@@ -400,13 +400,13 @@ export default function AboutPage() {
 
             <div className="flex flex-1 items-start pb-0 pt-16 md:items-center md:pb-0 md:pt-0">
               <div className="w-[min(390px,calc(100vw-40px))] min-w-0 sm:w-[min(780px,calc(100vw-64px))] lg:w-[780px]">
-                <h1 className="max-w-full text-[38px] font-bold leading-[1.04] tracking-normal sm:text-6xl sm:leading-[0.98] lg:text-[82px]">
+                <h1 className="max-w-full text-[36px] font-bold leading-[1.04] tracking-normal sm:text-[54px] sm:leading-[0.98] lg:text-[72px]">
                   {isEnglish ? "Book fast" : "Rezerva rapid"}
                   <br />
                   {isEnglish ? "with " : "prin "}
                   <span className="text-[#106dff]">SportMe</span>
                 </h1>
-                <p className="mt-4 max-w-full text-[16px] leading-6 text-white/84 sm:mt-5 sm:max-w-[640px] sm:text-2xl sm:leading-9">
+                <p className="mt-4 max-w-full text-[15px] leading-6 text-white/84 sm:mt-5 sm:max-w-[640px] sm:text-xl sm:leading-8 lg:text-[22px]">
                   {isEnglish
                     ? "Check availability and book sports courts in a few seconds."
                     : "Verifica disponibilitatea si rezerva terenuri sportive in cateva secunde."}
@@ -419,10 +419,10 @@ export default function AboutPage() {
                     { id: "calls", icon: <PhoneArrowIcon />, ro: ["Fara apeluri,", "fara stres"], en: ["No calls,", "no stress"] },
                   ].map((benefit) => (
                     <div key={benefit.id} className="min-w-0 px-1.5 sm:px-5">
-                      <div className="mx-auto mb-2.5 flex h-[70px] w-[70px] items-center justify-center rounded-full border border-[#0d67ff] bg-black/24 text-white shadow-[0_0_22px_rgba(0,93,255,0.34),inset_0_0_20px_rgba(255,255,255,0.04)] sm:mb-3 sm:h-[82px] sm:w-[82px]">
+                      <div className="mx-auto mb-2.5 flex h-[62px] w-[62px] items-center justify-center rounded-full border border-[#0d67ff] bg-black/24 text-white shadow-[0_0_22px_rgba(0,93,255,0.34),inset_0_0_20px_rgba(255,255,255,0.04)] sm:mb-3 sm:h-[74px] sm:w-[74px]">
                         {benefit.icon}
                       </div>
-                      <p className="text-[13px] font-semibold leading-5 sm:text-xl sm:leading-6">
+                      <p className="text-[13px] font-normal leading-5 sm:text-xl sm:leading-6">
                         {(isEnglish ? benefit.en : benefit.ro).map((line) => (
                           <span key={line} className="block">
                             {line}
@@ -442,14 +442,14 @@ export default function AboutPage() {
                   <div className="w-full max-w-[670px] space-y-3 sm:space-y-4">
                     <a
                       href="https://play.google.com/store/apps/details?id=ro.sportme.app"
-                      className="flex h-16 items-center justify-center gap-3 rounded-full bg-[#0564ff] px-4 text-lg font-semibold shadow-[0_20px_48px_rgba(0,93,255,0.42)] hover:bg-[#1472ff] sm:h-[78px] sm:gap-4 sm:text-2xl"
+                      className="flex h-16 items-center justify-center gap-3 rounded-full bg-[#0564ff] px-4 text-lg font-normal shadow-[0_20px_48px_rgba(0,93,255,0.42)] hover:bg-[#1472ff] sm:h-[78px] sm:gap-4 sm:text-2xl"
                     >
                       <AndroidIcon />
                       <span>{isEnglish ? "Get it on Google Play" : "Descarca din Google Play"}</span>
                     </a>
                     <a
                       href="https://www.sportme.ro/app"
-                      className="flex h-16 items-center justify-center gap-3 rounded-full border border-white/38 bg-black/20 px-4 text-lg font-semibold hover:border-white/58 hover:bg-white/8 sm:h-[78px] sm:gap-4 sm:text-2xl"
+                      className="flex h-16 items-center justify-center gap-3 rounded-full border border-white/38 bg-black/20 px-4 text-lg font-normal hover:border-white/58 hover:bg-white/8 sm:h-[78px] sm:gap-4 sm:text-2xl"
                     >
                       <AppleIcon />
                       <span>{isEnglish ? "Download on the App Store" : "Descarca din App Store"}</span>
@@ -462,12 +462,12 @@ export default function AboutPage() {
                   >
                     <img src="/logo-512admin.png" alt="" className="h-16 w-16 rounded-[10px] sm:h-20 sm:w-20 lg:h-20 lg:w-20" />
                     <span className="min-w-0 flex-1">
-                      <span className="block text-sm text-white/72 sm:text-lg lg:text-sm">
+                      <span className="block whitespace-nowrap text-[clamp(11px,3vw,14px)] text-white/72 sm:text-lg lg:text-sm">
                         {isEnglish ? "Do you manage a sports venue?" : "Esti administrator de baza sportiva?"}
                       </span>
-                      <span className="mt-0.5 block text-xl font-bold sm:text-2xl lg:whitespace-nowrap lg:text-[22px] lg:leading-7">
+                      <span className="mt-0.5 block text-lg font-bold leading-tight sm:text-2xl lg:whitespace-nowrap lg:text-[22px] lg:leading-7">
                         {isEnglish ? "Open " : "Acceseaza "}
-                        <span className="text-[#106dff]">SportMe Manager</span>
+                        <span className="block text-[#106dff] text-[0.95em] sm:inline sm:pl-1">SportMe Manager</span>
                       </span>
                       <span className="mt-2 hidden max-w-[430px] text-base leading-6 text-white/72 sm:block lg:text-base lg:leading-6">
                         {isEnglish ? (
