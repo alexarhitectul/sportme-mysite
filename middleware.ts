@@ -4,9 +4,9 @@ import { NextResponse } from "next/server";
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  if (pathname === "/") {
+  if (pathname === "/" || pathname === "/home") {
     const url = request.nextUrl.clone();
-    url.pathname = "/home";
+    url.pathname = "/about";
     return NextResponse.redirect(url);
   }
 
