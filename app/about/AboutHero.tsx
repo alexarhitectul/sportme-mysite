@@ -83,7 +83,7 @@ function DownloadArrowIcon() {
 
 const menuItems = [
   { href: "/about", ro: "Acasa", en: "Home" },
-  { href: "/pricing", ro: "SportMe Manager", en: "SportMe Manager" },
+  { href: "/manageri", ro: "SportMe Manager", en: "SportMe Manager" },
   { href: "/privacy-policy", ro: "Politica de confidentialitate", en: "Privacy policy" },
   { href: "/terms", ro: "Termeni si conditii", en: "Terms" },
   { href: "/cookies", ro: "Politica de cookies", en: "Cookies" },
@@ -236,7 +236,7 @@ export function AboutHero() {
               </div>
 
               <a
-                href="https://www.sportme.ro/pricing"
+                href="https://www.sportme.ro/manageri"
                 className="flex w-full max-w-[670px] items-center gap-4 rounded-[24px] border border-white/12 bg-white/[0.08] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] backdrop-blur hover:bg-white/[0.11] sm:gap-5 sm:p-5 lg:h-[172px] lg:max-w-none lg:translate-x-10 lg:translate-y-0 lg:gap-5 lg:rounded-[22px] lg:px-6 lg:py-5"
               >
                 <img src="/logo-512admin.png" alt="" className="h-16 w-16 rounded-[10px] sm:h-20 sm:w-20 lg:h-20 lg:w-20" />

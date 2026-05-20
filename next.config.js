@@ -12,6 +12,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/pricing",
+        destination: "/manageri",
+        statusCode: 301,
+      },
+      {
         source: "/2025/:path*",
         destination: "/",
         permanent: true,
