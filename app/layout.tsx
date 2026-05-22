@@ -21,8 +21,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "Rezerva rapid terenuri sportive si administreaza bazele sportive cu SportMe.",
     manifest: "/manifest.webmanifest",
     icons: {
-      icon: "/favicon.ico",
-      shortcut: "/favicon.ico",
+      icon: "/logo-512.png",
+      shortcut: "/logo-512.png",
       apple: "/logo-512.png",
     },
     openGraph: {
@@ -48,8 +48,8 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.webmanifest" />
         <link rel="apple-touch-icon" href="/logo-512.png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/logo-512.png" />
+        <link rel="icon" type="image/png" href="/logo-512.png" />
         <meta name="msapplication-TileImage" content="/logo-512.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="theme-color" content={themeColor} />
