@@ -167,11 +167,11 @@ export default function ManageriPageClient() {
 
           <section className="space-y-4 sm:space-y-6">
             <div className="relative pt-16 lg:pt-0">
-              <div className="pointer-events-none absolute left-0 right-0 top-0 z-30 hidden -translate-y-2 rounded-xl border-2 border-emerald-500 bg-white/95 px-3 py-2 text-center shadow-md lg:left-2 lg:right-2 lg:top-[58%] lg:block lg:-translate-y-1/2 lg:-rotate-[6deg]">
-                <span className="block text-[16px] font-semibold leading-snug text-emerald-700">
+              <div className="pointer-events-none absolute left-0 right-0 top-0 z-30 hidden rounded-2xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-5 py-4 text-center shadow-[0_18px_45px_rgba(0,0,0,0.28)] lg:left-2 lg:right-2 lg:top-[56%] lg:block lg:-translate-y-1/2 lg:-rotate-[6deg]">
+                <span className="block text-[24px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2] drop-shadow-[0_2px_10px_rgba(32,255,142,0.35)]">
                   {t("pricing.new.trialBannerLine1")}
                 </span>
-                <span className="block text-[14px] font-semibold leading-snug text-emerald-700">
+                <span className="mt-1 block text-[18px] font-bold leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.22)]">
                   {t("pricing.new.trialBannerLine2")}
                 </span>
               </div>
@@ -179,9 +179,19 @@ export default function ManageriPageClient() {
               <p className="text-center text-sm font-semibold text-[#1f211f]">{t("pricing.new.proHighlight")}</p>
 
               <div className="grid gap-4 sm:gap-6 lg:grid-cols-3">
-                <div className="rounded-[24px] border border-[#d8d1bf] bg-[#f1f2f4] p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
+                <div className="relative rounded-[24px] border border-[#d8d1bf] bg-[#f1f2f4] p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.freemium.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.freemium.subtitle")}</p>
+                  <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
+                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                      <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
+                        {t("pricing.new.trialBannerLine1")}
+                      </span>
+                      <span className="mt-0.5 block text-[13px] font-bold leading-tight text-white">
+                        {t("pricing.new.trialBannerLine2")}
+                      </span>
+                    </div>
+                  </div>
                   <div className="mt-4 space-y-2 text-sm text-[#5b564b]">
                     {freemiumItems.map((item) => (
                       <p key={item}>{item}</p>
@@ -189,10 +199,6 @@ export default function ManageriPageClient() {
                   </div>
                   <p className="mt-4 text-sm text-[#5b564b]">{t("pricing.new.freemium.note")}</p>
                   <div className="relative mt-5">
-                    <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[104%] -translate-x-1/2 -translate-y-1/2 rotate-[-3deg] rounded-lg border-2 border-emerald-500 bg-white/95 px-2 py-1 text-center shadow-sm lg:hidden">
-                      <span className="block text-[10px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine1")}</span>
-                      <span className="block text-[9px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine2")}</span>
-                    </div>
                     <button
                       type="button"
                       disabled
@@ -204,11 +210,21 @@ export default function ManageriPageClient() {
                   <p className="mt-2 text-xs text-[#7a7566]">* {t("pricing.new.freemium.noteCta")}</p>
                 </div>
 
-                <div className="rounded-[24px] border border-[#d8d1bf] bg-white p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
+                <div className="relative rounded-[24px] border border-[#d8d1bf] bg-white p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.starter.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.starter.subtitle")}</p>
                   <div className="mt-3 rounded-xl border border-[#cfe6ff] bg-[#eef6ff] px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#144a86]">
                     {t("pricing.new.starter.limit")}
+                  </div>
+                  <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
+                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                      <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
+                        {t("pricing.new.trialBannerLine1")}
+                      </span>
+                      <span className="mt-0.5 block text-[13px] font-bold leading-tight text-white">
+                        {t("pricing.new.trialBannerLine2")}
+                      </span>
+                    </div>
                   </div>
                   <div className="mt-4 space-y-2 text-sm text-[#5b564b]">
                     {sharedPremiumItems.map((item) => (
@@ -217,10 +233,6 @@ export default function ManageriPageClient() {
                   </div>
                   <p className="mt-4 text-sm text-[#5b564b]">{t("pricing.new.starter.note")}</p>
                   <div className="relative mt-5">
-                    <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[104%] -translate-x-1/2 -translate-y-1/2 rotate-[-3deg] rounded-lg border-2 border-emerald-500 bg-white/95 px-2 py-1 text-center shadow-sm lg:hidden">
-                      <span className="block text-[10px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine1")}</span>
-                      <span className="block text-[9px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine2")}</span>
-                    </div>
                     <button
                       type="button"
                       disabled
@@ -232,7 +244,7 @@ export default function ManageriPageClient() {
                   <p className="mt-2 text-xs text-[#7a7566]">* {t("pricing.new.starter.noteCta")}</p>
                 </div>
 
-                <div className="rounded-[24px] border-2 border-[#1f211f] bg-white p-4 shadow-[0_30px_65px_-38px_rgba(32,33,31,0.75)] sm:rounded-[28px] sm:p-6">
+                <div className="relative rounded-[24px] border-2 border-[#1f211f] bg-white p-4 shadow-[0_30px_65px_-38px_rgba(32,33,31,0.75)] sm:rounded-[28px] sm:p-6">
                   <div className="inline-flex items-center rounded-full border border-[#1f211f] bg-[#f1f2f4] px-3 py-1 text-xs font-semibold text-[#1f211f]">
                     {t("pricing.new.pro.badge")}
                   </div>
@@ -241,6 +253,16 @@ export default function ManageriPageClient() {
                   <div className="mt-3 rounded-xl border border-[#d4c4f0] bg-[#f3ecff] px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#5e3c9b]">
                     {t("pricing.new.pro.limit")}
                   </div>
+                  <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
+                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                      <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
+                        {t("pricing.new.trialBannerLine1")}
+                      </span>
+                      <span className="mt-0.5 block text-[13px] font-bold leading-tight text-white">
+                        {t("pricing.new.trialBannerLine2")}
+                      </span>
+                    </div>
+                  </div>
                   <div className="mt-4 space-y-2 text-sm text-[#5b564b]">
                     {sharedPremiumItems.map((item) => (
                       <p key={item}>{item}</p>
@@ -248,10 +270,6 @@ export default function ManageriPageClient() {
                   </div>
                   <p className="mt-4 text-sm text-[#5b564b]">{t("pricing.new.pro.note")}</p>
                   <div className="relative mt-5">
-                    <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[104%] -translate-x-1/2 -translate-y-1/2 rotate-[-3deg] rounded-lg border-2 border-emerald-500 bg-white/95 px-2 py-1 text-center shadow-sm lg:hidden">
-                      <span className="block text-[10px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine1")}</span>
-                      <span className="block text-[9px] font-semibold leading-tight text-emerald-700">{t("pricing.new.trialBannerLine2")}</span>
-                    </div>
                     <button
                       type="button"
                       disabled
