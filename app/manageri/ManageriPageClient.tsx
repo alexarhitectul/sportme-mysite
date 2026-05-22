@@ -183,7 +183,7 @@ export default function ManageriPageClient() {
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.freemium.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.freemium.subtitle")}</p>
                   <div className="pointer-events-none relative z-10 mt-16 -mb-28 lg:hidden">
-                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-5deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
@@ -217,7 +217,7 @@ export default function ManageriPageClient() {
                     {t("pricing.new.starter.limit")}
                   </div>
                   <div className="pointer-events-none relative z-10 mt-16 -mb-28 lg:hidden">
-                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-5deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
@@ -254,7 +254,7 @@ export default function ManageriPageClient() {
                     {t("pricing.new.pro.limit")}
                   </div>
                   <div className="pointer-events-none relative z-10 mt-16 -mb-28 lg:hidden">
-                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-5deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
