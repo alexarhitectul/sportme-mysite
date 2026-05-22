@@ -129,14 +129,14 @@ export default function ManageriPageClient() {
                     <div className="text-center">
                       <div className="text-[11px] font-semibold text-[#1f211f] sm:text-xs md:text-sm">{t("pricing.new.compare.starter")}</div>
                       <div className="text-[10px] font-normal text-[#5b564b] sm:text-[11px] md:text-xs">{t("pricing.new.compare.starterPrice")}</div>
-                      <div className="mt-1 text-[9px] font-semibold uppercase tracking-[0.03em] text-[#144a86] sm:text-[10px] md:text-[11px] md:tracking-[0.06em]">
+                      <div className="mt-1 inline-flex rounded-full border border-[#76b8ff] bg-[#e8f3ff] px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0d58c8] shadow-[0_4px_12px_rgba(13,88,200,0.18)] sm:text-[10px] md:text-[11px] md:tracking-[0.08em]">
                         {t("pricing.new.starter.limit")}
                       </div>
                     </div>
                     <div className="text-center">
                       <div className="text-[11px] font-semibold text-[#1f211f] sm:text-xs md:text-sm">{t("pricing.new.compare.pro")}</div>
                       <div className="text-[10px] font-normal text-[#5b564b] sm:text-[11px] md:text-xs">{t("pricing.new.compare.proPrice")}</div>
-                      <div className="mt-1 text-[9px] font-semibold uppercase tracking-[0.03em] text-[#5e3c9b] sm:text-[10px] md:text-[11px] md:tracking-[0.06em]">
+                      <div className="mt-1 inline-flex rounded-full border border-[#b394f0] bg-[#f3ecff] px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#5e3c9b] shadow-[0_4px_12px_rgba(94,60,155,0.18)] sm:text-[10px] md:text-[11px] md:tracking-[0.08em]">
                         {t("pricing.new.pro.limit")}
                       </div>
                     </div>
@@ -167,7 +167,7 @@ export default function ManageriPageClient() {
 
           <section className="space-y-4 sm:space-y-6">
             <div className="relative pt-16 lg:pt-0">
-              <div className="pointer-events-none absolute left-0 right-0 top-0 z-30 hidden rounded-2xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-5 py-4 text-center shadow-[0_18px_45px_rgba(0,0,0,0.28)] lg:left-2 lg:right-2 lg:top-[56%] lg:block lg:-translate-y-1/2 lg:-rotate-[6deg]">
+              <div className="pointer-events-none absolute left-0 right-0 top-0 z-30 hidden rounded-2xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.84),rgba(18,67,48,0.8))] px-5 py-4 text-center shadow-[0_18px_45px_rgba(0,0,0,0.28)] lg:left-2 lg:right-2 lg:top-[56%] lg:block lg:-translate-y-1/2 lg:-rotate-[6deg]">
                 <span className="block text-[24px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2] drop-shadow-[0_2px_10px_rgba(32,255,142,0.35)]">
                   {t("pricing.new.trialBannerLine1")}
                 </span>
@@ -183,7 +183,7 @@ export default function ManageriPageClient() {
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.freemium.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.freemium.subtitle")}</p>
                   <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
-                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
@@ -213,11 +213,11 @@ export default function ManageriPageClient() {
                 <div className="relative rounded-[24px] border border-[#d8d1bf] bg-white p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.starter.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.starter.subtitle")}</p>
-                  <div className="mt-3 rounded-xl border border-[#cfe6ff] bg-[#eef6ff] px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#144a86]">
+                  <div className="mt-3 rounded-xl border border-[#9fcfff] bg-[#e8f3ff] px-3 py-2 text-sm font-extrabold uppercase tracking-[0.1em] text-[#0d58c8] shadow-[0_8px_20px_rgba(13,88,200,0.14)]">
                     {t("pricing.new.starter.limit")}
                   </div>
                   <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
-                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
@@ -250,11 +250,11 @@ export default function ManageriPageClient() {
                   </div>
                   <h3 className="mt-3 text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.pro.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.pro.subtitle")}</p>
-                  <div className="mt-3 rounded-xl border border-[#d4c4f0] bg-[#f3ecff] px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#5e3c9b]">
+                  <div className="mt-3 rounded-xl border border-[#c7aff1] bg-[#f3ecff] px-3 py-2 text-sm font-extrabold uppercase tracking-[0.1em] text-[#5e3c9b] shadow-[0_8px_20px_rgba(94,60,155,0.14)]">
                     {t("pricing.new.pro.limit")}
                   </div>
                   <div className="pointer-events-none relative z-10 mt-4 -mb-10 lg:hidden">
-                    <div className="rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.96),rgba(18,67,48,0.94))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
+                    <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
                       </span>
