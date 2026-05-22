@@ -182,7 +182,7 @@ export default function ManageriPageClient() {
                 <div className="relative rounded-[24px] border border-[#d8d1bf] bg-[#f1f2f4] p-4 shadow-[0_25px_50px_-40px_rgba(32,33,31,0.6)] sm:rounded-[28px] sm:p-6">
                   <h3 className="text-lg font-semibold text-[#1f211f] sm:text-xl">{t("pricing.new.freemium.title")}</h3>
                   <p className="mt-2 text-sm font-semibold text-[#1f211f]">{t("pricing.new.freemium.subtitle")}</p>
-                  <div className="pointer-events-none relative z-10 mt-10 -mb-16 lg:hidden">
+                  <div className="pointer-events-none relative z-10 mt-14 -mb-24 lg:hidden">
                     <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
@@ -216,7 +216,7 @@ export default function ManageriPageClient() {
                   <div className="mt-3 rounded-xl border border-[#9fcfff] bg-white px-3 py-2 text-sm font-normal uppercase tracking-[0.1em] text-[#0d58c8] shadow-[0_8px_20px_rgba(13,88,200,0.1)]">
                     {t("pricing.new.starter.limit")}
                   </div>
-                  <div className="pointer-events-none relative z-10 mt-10 -mb-16 lg:hidden">
+                  <div className="pointer-events-none relative z-10 mt-14 -mb-24 lg:hidden">
                     <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
@@ -253,7 +253,7 @@ export default function ManageriPageClient() {
                   <div className="mt-3 rounded-xl border border-[#9fcfff] bg-white px-3 py-2 text-sm font-normal uppercase tracking-[0.1em] text-[#0d58c8] shadow-[0_8px_20px_rgba(13,88,200,0.1)]">
                     {t("pricing.new.pro.limit")}
                   </div>
-                  <div className="pointer-events-none relative z-10 mt-10 -mb-16 lg:hidden">
+                  <div className="pointer-events-none relative z-10 mt-14 -mb-24 lg:hidden">
                     <div className="rotate-[-3deg] rounded-xl border-2 border-emerald-300 bg-[linear-gradient(135deg,rgba(7,31,24,0.82),rgba(18,67,48,0.78))] px-3 py-2 text-center shadow-[0_12px_32px_rgba(0,0,0,0.22)]">
                       <span className="block text-[15px] font-extrabold leading-tight tracking-[-0.02em] text-[#7dffb2]">
                         {t("pricing.new.trialBannerLine1")}
